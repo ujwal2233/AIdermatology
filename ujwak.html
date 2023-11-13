@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Farmers Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Indian Farmers Portal</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="government-schemes.html">Government Schemes</a></li>
+                    <li><a href="price-rates.html">Price Rates</a></li>
+                    <li><a href="weather-updates.html">Weather Updates</a></li>
+                    <li><a href="crop-advice.html">Crop Advice</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="featured-content" class="container">
+            <div class="hero">
+                <h2>Welcome to Indian Farmers Portal</h2>
+                <p>This portal provides essential information and resources for Indian farmers to thrive in modern agriculture.</p>
+            </div>
+        </section>
+
+        <section class="container" id="latest-news">
+            <h2>Latest News</h2>
+            <div class="news-container">
+                <article>
+                    <img src="news1.jpg" alt="News Image">
+                    <div>
+                        <h3>Government Announces New Agricultural Policies</h3>
+                        <p>The government has recently introduced new policies to support farmers. Stay informed about the changes and how they may impact your farming practices.</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="news2.jpg" alt="News Image">
+                    <div>
+                        <h3>New High-Yield Seeds Available</h3>
+                        <p>Discover the latest high-yield seeds in the market. Improve your crop yield and learn about the best practices for cultivation.</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="additional-info">
+                <h3>Stay Informed</h3>
+                <p>Get the latest updates on agricultural innovations, government policies, and market trends to stay ahead in your farming practices.</p>
+            </div>
+        </section>
+
+        <section class="container" id="farming-tips">
+            <h2>Farming Tips</h2>
+            <div class="tips-container">
+                <div class="tip">
+                    <h3>Optimal irrigation practices</h3>
+                    <p>Learn about the best irrigation practices for different crops to maximize yield and conserve water.</p>
+                </div>
+
+                <div class="tip">
+                    <h3>Effective pest control methods</h3>
+                    <p>Explore proven methods to control pests and protect your crops without harming the environment.</p>
+                </div>
+
+                <div class="tip">
+                    <h3>Seasonal crop rotation advice</h3>
+                    <p>Understand the importance of crop rotation and discover strategies to implement it effectively in your fields.</p>
+                </div>
+            </div>
+
+            <div class="additional-info">
+                <h3>Maximize Your Yield</h3>
+                <p>Explore our extensive library of tips and tricks to maximize your crop yield and enhance the overall productivity of your farm.</p>
+            </div>
+        </section>
+
+        <section class="container" id="market-trends">
+            <h2>Market Trends</h2>
+            <div class="market-container">
+                <img src="market-trends.jpg" alt="Market Trends Image">
+                <p>Stay updated with the latest market trends to make informed decisions about selling your produce. Check the current demand and pricing for different crops.</p>
+            </div>
+
+            <div class="additional-info">
+                <h3>Market Insights</h3>
+                <p>Gain valuable insights into market trends, pricing strategies, and demand forecasting to make informed decisions about selling your produce.</p>
+            </div>
+        </section>
+
+        <!-- New Section: Signup Page -->
+        <section class="container" id="signup-page">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+
+                <label for="region">Region:</label>
+                <input type="text" id="region" name="region" required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="language-selection">
+                <label for="language">Select Language:</label>
+                <select id="language" onchange="changeLanguage()">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                </select>
+            </div>
+            <p id="footer-text">&copy; 2023 Indian Farmers Portal</p>
+        </div>
+    </footer>
+</body>
+</html>
+

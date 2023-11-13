@@ -1,0 +1,101 @@
+
+/* Add or modify styles as needed */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    text-align: center;
+    color: #000000c9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; /* Center the content */
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-position: center;
+    font-size: 48px;
+    font-style: normal;
+    font-family: Times New Roman;
+}
+
+header img {
+    width: 150px; /* Adjust the size as needed */
+}
+
+main {
+    padding: 20px 0;
+}
+
+#signup {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #b5afaf8c;
+}
+
+.signup-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label,name {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    margin-top: 41px;
+    padding: 13px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 25px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 20px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
